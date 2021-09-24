@@ -1,0 +1,2 @@
+,learning_rate,weight_decay,batch_size,hidden_size,validation loss,rewards,test_loss
+0,0.00030000000000000003,0.01,1024,2,tensor(0.8499),[tensor(-0.8499)],0.8499359488487244
