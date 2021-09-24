@@ -1,19 +1,19 @@
 # HypOptRL
 
-[Artricle Reference](https://github.com/AMNAALMGLY/HypOptRL/blob/main/RL_project_report%20_final.pdf)
 
-We got a very similar results of test loss compared to the baseline model , optimizing 4 hyperparameters :learning_rate,hidden size, weight decay and Batch sizes . Tasks optimized are regression and classification using Tabuler data  [wine dataset from UCL ](https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/letter-recognition.data) and [Letter Recognition multi-classfication task](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red).Using 1 layer MLP architucture .More experiments could be done on other data modalities.
+We used policy gradient method with multi-head MLP and RNN to optimize hyperparameters of MLP architucture We got a very similar results of test loss compared to the baseline model , optimizing 4 hyperparameters :learning_rate,hidden size, weight decay and Batch sizes . Tasks optimized are regression and classification using Tabuler data  [wine dataset from UCL ](https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/letter-recognition.data) and [Letter Recognition multi-classfication task](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red) .More experiments could be done on other data modalities and archituctres.
 
-Other Hyperparameters can be added in the future.also CNN arichtuctre could be experimented usig more compute .
+Other Hyperparameters can be added in the future.also CNN arichtuctre could be experimented usig more compute resourse .
 
 Major modules implemented in the code
 
--Environment class
+- Environment class
 - Multi-head MLP policy Network
 - RNN policy Network
-- Building the Neural architucture (1-layer MLP)
+- Building the Neural architucture 
 - Baseline using grid search method
 
+[Artricle Reference for more details](https://github.com/AMNAALMGLY/HypOptRL/blob/main/RL_project_report%20_final.pdf)
 
 ## How to use code
 
@@ -68,3 +68,4 @@ python -m src.baseline
 - [Faisal Mohammed](https://github.com/FaisalAhmed0)
 - [Maab Nimir](https://github.com/Maab-Nimir)
 
+(names in alphabetical order)
