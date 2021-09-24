@@ -32,7 +32,7 @@ python -m src.baseline
 ```
 ### Contributors
 
-- [Ahmed A. Elhag](https://github.com/Ahmed-A-A-Elhag)
+- [Ahmed A. A. Elhag](https://github.com/Ahmed-A-A-Elhag)
 - [Maab Nimir](https://github.com/Maab-Nimir)
 - [Amina Rufai](https://github.com/Aminah92)
 - [Amna Ahmed Elmustapha](https://github.com/AMNAALMGLY)
