@@ -1,7 +1,7 @@
 # HypOptRL
 
 
-We used policy gradient method with multi-head MLP and RNN to optimize hyperparameters of MLP architucture We got a very similar results of test loss compared to the baseline model , optimizing 4 hyperparameters :learning_rate,hidden size, weight decay and Batch sizes . Tasks optimized are regression and classification using Tabuler data  [wine dataset from UCL ](https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/letter-recognition.data) and [Letter Recognition multi-classfication task](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red) .More experiments could be done on other data modalities and archituctres.
+We used policy gradient method with multi-head MLP and RNN to optimize hyperparameters of MLP architucture .We got a very similar results of test loss compared to the baseline model , optimizing 4 hyperparameters :learning_rate,hidden size, weight decay and Batch sizes . Tasks optimized are regression and classification using Tabuler data  [wine dataset from UCL ](https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/letter-recognition.data) and [Letter Recognition multi-classfication task](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red) .More experiments could be done on other data modalities and archituctres.
 
 Other Hyperparameters can be added in the future.also CNN arichtuctre could be experimented usig more compute resourse .
 
